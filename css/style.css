@@ -102,11 +102,11 @@ header a:hover{
   margin-bottom:10px;
 }
 
-/*newsletter*/
 #showcase p{
   font-size:20px;
 }
 
+/*newsletter*/
 #newsletter{
   padding:30px;
   color:#ffffff;
@@ -142,11 +142,6 @@ header a:hover{
 
 #boxes .box img{
   width:90px;
-}
-
-#boxes .box img:hover{
-  color: #76D7C4;
-  font-weight:none
 }
 
 #boxes .zoom {
