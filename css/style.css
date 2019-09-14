@@ -145,7 +145,7 @@ header a:hover{
     right: 5%;
     padding: 0px;
     width: 45%;
-    min-height: 400px;
+    min-height: 300px;
     float: left;
     background-size:100%;
     background-position:center;
@@ -187,7 +187,7 @@ header a:hover{
 /* Boxes */
 #boxes{
   margin-top:20px;
-  margin-left: 40px;
+  margin-left: auto;
 }
 
 #boxes .box{
