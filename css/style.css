@@ -187,7 +187,6 @@ header a:hover{
 /* Boxes */
 #boxes{
   margin-top:20px;
-  margin-left: auto;
 }
 
 #boxes .box{
@@ -251,7 +250,8 @@ footer{
   }
 
   .textOverImage{
-    margin: 2%;
+    margin: auto;
+    float:none;
     width: 90%;
   }
 
