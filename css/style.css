@@ -201,8 +201,7 @@ header a:hover{
   left: 5%;
   right: 5%;
   position:relative;
-  font: 15px/1.5 Arial;
-  padding: 20 px;
+  padding: 10 px;
   width: 45%;
   min-height: 300px;
   float: left;
@@ -241,7 +240,7 @@ header a:hover{
 
 .textOverImage:first-line{
     color:#fff;
-    font-weight:normal;
+    font-weight: normal;
     font-size:1.5em;
 }
 /* Boxes */
@@ -364,11 +363,13 @@ footer{
   }
 
   header{
-    padding-bottom:20px;
+    padding-bottom:0px;
   }
 
   header #branding img{
-    height: 50px;
+    width: 80%;
+    height: 80%;
+    padding-bottom: 0px;
   }
 
 
