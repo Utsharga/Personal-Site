@@ -57,33 +57,33 @@ button:before{
 }
 
 button:after{
-    content: '';
-    display: block;
-    position: absolute;
-    background: rgba(255,255,255,.2);
-    width: 30px;
-    height: 100%;
-    left: 30px;
-    top: 0;
-    opacity: 0;
-    filter: blur(30px);
-    transform: translate(-100px) scaleX(-15deg);
+  content: '';
+  display: block;
+  position: absolute;
+  background: rgba(255,255,255,.2);
+  width: 30px;
+  height: 100%;
+  left: 30px;
+  top: 0;
+  opacity: 0;
+  filter: blur(30px);
+  transform: translate(-100px) scaleX(-15deg);
 }
 button:hover {
-    background: #76D7C4;
- cursor:pointer;
+  background: #76D7C4;
+  cursor:pointer;
  }
 
 button:hover:before {
    transform: translateX(300px) skewX(-15deg);
-    opacity: .6;
-    transition: .7s;
+   opacity: .6;
+   transition: .7s;
 }
 
 button:hover:after {
    transform: translateX(300px) skewX(-15deg);
-    opacity: 1;
-    transition: .7s;
+   opacity: 1;
+   transition: .7s;
 }
 
 .dark_color{
@@ -167,7 +167,9 @@ header a:hover{
   font-size:20px;
 }
 
-.change h1{
+.part{
+  display: block;
+  padding-top: 30px;
   margin-top: 0px;
   font: 30px/1.5 Arial;
   font-weight: normal;
@@ -175,6 +177,20 @@ header a:hover{
   text-align: center;
   float:left;
   width: 100%;
+}
+
+.part p{
+  margin-left: 10%;
+  float: left;
+  text-align: left;
+}
+
+.part img{
+  position: relative;
+  height: 300px;
+  margin-right:10%;
+  padding-bottom: 15px;
+  margin-top: -5px;
 }
 
 .textOverImage{
@@ -235,7 +251,8 @@ header a:hover{
   float:left;
   text-align: center;
   width:30%;
-  padding:10px;
+  padding:1%;
+  margin-left: 1.3%;
 }
 
 #boxes .box img{
@@ -291,7 +308,6 @@ footer{
 }
 
 @media(max-width: 800px){
-  header #branding,
   header nav,
   header nav li,
   article#main-col,
@@ -309,6 +325,7 @@ footer{
   }
 
   #boxes .box img{
+    padding-top:10px;
     width:100px;
   }
 
@@ -325,10 +342,16 @@ footer{
     padding-bottom:20px;
   }
 
+  header #branding img{
+    height: 50px;
+  }
+
+  .part{
+    float:none;
+  }
+
   #showcase h1{
     margin-top:40px;
   }
-
-}
 
 }
