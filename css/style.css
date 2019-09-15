@@ -29,6 +29,7 @@ button{
 
 button {
    background: none;
+   margin-top: 5%;
    color: grey;
    width: 30%;
    max-width: 400px;
@@ -183,32 +184,33 @@ header a:hover{
   margin-left: 10%;
   float: left;
   text-align: left;
+  font-size: 25px;
 }
 
 .part img{
   position: relative;
   height: 300px;
   margin-right:10%;
-  padding-bottom: 15px;
-  margin-top: -5px;
+  margin-top: -40px;
 }
 
 .textOverImage{
-    display: block;
-    margin-bottom : 20px;
-    margin-right: 20px;
-    left: 5%;
-    right: 5%;
-    position:relative;
-    padding: 20 px;
-    width: 45%;
-    min-height: 300px;
-    float: left;
-    background-size:100%;
-    background-position:center;
-    transition:0.5s;
-    box-shadow: 0 30px 60px rgba(0,0,0,0.2);
-    border-radius: 10px;
+  display: block;
+  margin-bottom : 20px;
+  margin-right: 20px;
+  left: 5%;
+  right: 5%;
+  position:relative;
+  font: 15px/1.5 Arial;
+  padding: 20 px;
+  width: 45%;
+  min-height: 300px;
+  float: left;
+  background-size:100%;
+  background-position:center;
+  transition:0.5s;
+  box-shadow: 0 30px 60px rgba(0,0,0,0.2);
+  border-radius: 10px;
   }
 
 .textOverImage:hover{
@@ -217,7 +219,7 @@ header a:hover{
 
 .textOverImage:after{
     position:absolute;
-    top:90%;
+    top:89%;
     bottom:0;
     left:0;
     right:0;
@@ -239,7 +241,7 @@ header a:hover{
 
 .textOverImage:first-line{
     color:#fff;
-    font-weight:bold;
+    font-weight:normal;
     font-size:1.5em;
 }
 /* Boxes */
@@ -311,7 +313,8 @@ footer{
   header nav,
   header nav li,
   article#main-col,
-  aside#sidebar{
+  aside#sidebar,
+  .part{
   float:none;
   text-align: center;
   width:100%;
@@ -328,6 +331,28 @@ footer{
     padding-top:10px;
     width:100px;
   }
+
+  .part img{
+    float:none;
+    margin-right:0;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .part p{
+    white-space:pre-line;
+    padding: 20px;
+    margin-right: 5%;
+    margin-left: 5%;
+    margin-bottom: 5%;
+    float:none;
+    text-align: center;
+    font-size: 20px;
+  }
+
+  button{
+    margin-top: 40px;
+  }
+
 
   .textOverImage{
     margin-bottom: 20px;
@@ -346,9 +371,6 @@ footer{
     height: 50px;
   }
 
-  .part{
-    float:none;
-  }
 
   #showcase h1{
     margin-top:40px;
