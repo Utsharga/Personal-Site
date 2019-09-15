@@ -17,17 +17,14 @@ ul{
   padding:0;
 }
 
-button a{
-}
-
-button{
+.interact{
   position:relative;
   top:50%;
   left:50%;
   transform: translate(-50%, -50%)
 }
 
-button {
+.interact{
    background: none;
    margin-top: 5%;
    color: grey;
@@ -40,10 +37,10 @@ button {
    transition: .6s;
    overflow: hidden;
 }
-button:focus{
+.interact:focus{
  outline:none;
  }
-button:before{
+.interact:before{
     content: '';
     display: block;
     position: absolute;
@@ -57,7 +54,7 @@ button:before{
     transform: translateX(-130px) skewX(-15deg);
 }
 
-button:after{
+.interact:after{
   content: '';
   display: block;
   position: absolute;
@@ -70,20 +67,52 @@ button:after{
   filter: blur(30px);
   transform: translate(-100px) scaleX(-15deg);
 }
-button:hover {
+.interact:hover {
   background: #76D7C4;
   cursor:pointer;
  }
 
-button:hover:before {
+.interact:hover:before {
    transform: translateX(300px) skewX(-15deg);
    opacity: .6;
    transition: .7s;
 }
 
-button:hover:after {
+.interact:hover:after {
    transform: translateX(300px) skewX(-15deg);
    opacity: 1;
+   transition: .7s;
+}
+
+.download_button{
+  position:relative;
+  background: #923CED;
+  margin-top: 5%;
+  color: #ffffff;
+  width: 200px;
+  max-width: 400px;
+  height: 50px;
+  border: 1px solid #923CED;
+  font-size: 18px;
+  border-radius: 4px;
+  transition: .6s;
+  overflow: hidden;
+}
+.download_button:focus{
+ outline:none;
+ }
+
+.download_button:hover {
+  background: none;
+  cursor:pointer;
+  color: #923CED;
+ }
+
+.download_button:hover:before {
+   transition: .7s;
+}
+
+.download_button:hover:after {
    transition: .7s;
 }
 
@@ -320,7 +349,7 @@ footer{
   }
 
   #boxes .box,
-  button{
+  .interact{
   float:none;
   text-align: center;
   width:90%;
@@ -340,18 +369,29 @@ footer{
   .part p{
     white-space:pre-line;
     padding: 20px;
+    padding-bottom: 0px;
     margin-right: 5%;
     margin-left: 5%;
-    margin-bottom: 5%;
     float:none;
     text-align: center;
     font-size: 20px;
   }
 
-  button{
+  .part br{
+    display: none;
+  }
+
+  .interact{
     margin-top: 40px;
   }
 
+  .download_button{
+    text-align: center;
+    float: none;
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+  }
 
   .textOverImage{
     margin-bottom: 20px;
