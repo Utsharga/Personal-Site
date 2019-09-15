@@ -236,7 +236,7 @@ header a:hover{
   float: left;
   background-size:100%;
   background-position:center;
-  transition:0.5s;
+  transition:0.7s;
   box-shadow: 0 30px 60px rgba(0,0,0,0.2);
   border-radius: 10px;
   }
@@ -257,7 +257,7 @@ header a:hover{
     color:#fff;
     padding:0 8px;
     content:attr(data-text);
-    transition:0.5s;
+    transition:0.7s;
     border-radius: 10px;
 }
 
@@ -282,6 +282,9 @@ header a:hover{
   text-align: center;
   width:30%;
   padding:1%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
   margin-left: 1.3%;
 }
 
