@@ -429,6 +429,11 @@ footer .lift{
   footer .lift{
     display: block;
   }
+  aside#sidebar img{
+    white-space:pre-line;
+    float: none;
+    white-space:pre-wrap;
+  }
 }
 
 @media(max-width: 800px){
