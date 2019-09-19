@@ -466,7 +466,7 @@ footer .lift{
     padding-left: 30px;
     padding-right: 30px;
   }
-  .part p,{
+  .part p{
     white-space:pre-line;
     padding: 20px;
     padding-bottom: 0px;
@@ -524,6 +524,7 @@ footer .lift{
     margin-left: 0px;
     white-space:pre-line;
   }
+
   #showcase h1{
     margin-top:40px;
   }
