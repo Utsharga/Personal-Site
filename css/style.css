@@ -427,11 +427,12 @@ footer .lift{
   }
   footer .lift{
     display: block;
+    white-space:pre-line;
   }
   aside#sidebar img{
     white-space:pre-line;
     float: none;
-    white-space:pre-wrap;
+    margin-left: 0px;
   }
 }
 
@@ -465,8 +466,7 @@ footer .lift{
     padding-left: 30px;
     padding-right: 30px;
   }
-  .part p,
-  article#main-col img{
+  .part p,{
     white-space:pre-line;
     padding: 20px;
     padding-bottom: 0px;
@@ -519,6 +519,11 @@ footer .lift{
   width:90%;
   }
 
+  article#main-col img{
+    float: none;
+    margin-left: 0px;
+    white-space:pre-line;
+  }
   #showcase h1{
     margin-top:40px;
   }
