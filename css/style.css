@@ -1,5 +1,5 @@
 body{
-  font: 15px/1.5 Arial, Helvetica, sans-serif;
+  font: 15px/1.5 Arial;
   padding:0;
   margin:0;
   background-color:#f4f4f4;
@@ -303,6 +303,57 @@ header a:hover{
   transform: scale(1.5); /* (150% zoom) */
 }
 
+/* Contact*/
+form{
+  display: block;
+  width: 60%;
+  color: #CDF3EF;
+  border-radius: 20px;
+  margin: auto;
+  text-align: center;
+  float:none;
+  background-color: #CDF3EF;
+  margin-bottom: 40px;
+}
+
+form p{
+  color: #000;
+  font-size: 30px;
+  font-family: Arial;
+  padding-top: 40px;
+}
+.contactform{
+  width: 90%;
+  background: none;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid grey;
+  color: #000;
+  font-size: 18px;
+  font-family: Arial;
+  margin-bottom: 20px;
+}
+
+.submit{
+  position:relative;
+  background: #76D7C4;
+  color: grey;
+  width: 200px;
+  max-width: 400px;
+  height: 50px;
+  border: 1px solid #76D7C4;
+  font-size: 18px;
+  border-radius: 4px;
+  transition: .6s;
+  margin-bottom: 20px;
+}
+
+.submit:hover{
+  background: #57978A;
+  color: white;
+  border: 1px solid #57978A;
+}
+
 /*Sidebar*/
 
 aside#sidebar{
@@ -313,12 +364,34 @@ aside#sidebar{
 
 /* Main-col */
 article#main-col{
-  float:left;
-  width:65%;
+  float:none;
+  display: block;
+  font-family: Arial;
+  font-size: 25px;
+  margin-left: 5%;
 }
 
+article#main-col p{
+  font-size: 20px;
+  width:90%;
+}
+
+article#main-col img{
+  width: 300px;
+  margin-left: 10px;
+  margin-bottom: 20px;
+  animation-name: fadeIn;
+  animation-duration: 6s;
+}
+
+article#main-col .art{
+  width: 400px;
+  margin-bottom: 20px;
+  margin-right: 5%;
+}
 
 footer{
+  display: block;
   padding:20px;
   margin-top:20px;
   color: #ffffff;
@@ -326,11 +399,26 @@ footer{
   text-align: center;
 }
 
+footer img{
+    float: none;
+    width: 30px;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+footer .lift{
+  display: left;
+  padding-bottom: 10px;
+  margin-left: 5px;
+  margin-right: 25px;
+  margin-top: -10px;
+}
 /* Media Queries */
 @media(max-width: 1000px){
   header #branding,
   header nav,
-  header nav li{
+  header nav li,
+  footer{
   float:none;
   text-align: center;
   width:100%;
@@ -338,21 +426,25 @@ footer{
   header{
     padding-bottom:20px;
   }
+  footer .lift{
+    display: block;
+  }
 }
 
 @media(max-width: 800px){
   header nav,
   header nav li,
-  article#main-col,
   aside#sidebar,
-  .part{
+  .part,
+  footer .lift{
   float:none;
   text-align: center;
   width:100%;
   }
 
   #boxes .box,
-  .interact{
+  .interact,
+  article#main-col{
   float:none;
   text-align: center;
   width:90%;
@@ -369,7 +461,8 @@ footer{
     padding-left: 30px;
     padding-right: 30px;
   }
-  .part p{
+  .part p,
+  article#main-col img{
     white-space:pre-line;
     padding: 20px;
     padding-bottom: 0px;
@@ -415,9 +508,20 @@ footer{
     padding-bottom: 0px;
   }
 
+  article#main-col,
+  article#main-col .art{
+  float:none;
+  text-align: center;
+  width:90%;
+  margin-left: 5%;
+  }
 
   #showcase h1{
     margin-top:40px;
+  }
+
+  footer .lift{
+    display: block;
   }
 
 }
