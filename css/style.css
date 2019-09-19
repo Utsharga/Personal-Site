@@ -417,8 +417,7 @@ footer .lift{
 @media(max-width: 1000px){
   header #branding,
   header nav,
-  header nav li,
-  footer{
+  header nav li{
   float:none;
   text-align: center;
   width:100%;
@@ -442,7 +441,7 @@ footer .lift{
   aside#sidebar,
   .part,
   footer .lift{
-  float:none;
+  float: none;
   text-align: center;
   width:100%;
   }
@@ -518,7 +517,6 @@ footer .lift{
   float:none;
   text-align: center;
   width:90%;
-  margin-left: 5%;
   }
 
   #showcase h1{
