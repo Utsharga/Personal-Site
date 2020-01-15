@@ -12,6 +12,24 @@ body{
   overflow:hidden;
 }
 
+.content_box{
+  position:relative;
+  background:	#ccffff;
+  margin-top: 5%;
+  color: #404040;
+  width: 99%;
+  font-size: 18px;
+  border-radius: 10px;
+  transition: .6s;
+  overflow: hidden;
+  box-shadow: 0 10px 10px rgba(0,0,0,0.05);
+}
+
+.content_text{
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
 ul{
   margin:0;
   padding:0;
@@ -386,9 +404,17 @@ article#main-col img{
 }
 
 article#main-col .art{
-  width: 400px;
+  width: 35%;
   margin-bottom: 20px;
   margin-right: 5%;
+}
+
+article#main-col .art_2{
+  height: 35%;
+  margin-bottom: 20px;
+  margin-right: 5%;
+  margin-top: : -30px;
+  padding bottom: 30px;
 }
 
 footer{
