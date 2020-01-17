@@ -543,7 +543,8 @@ footer .lift{
   }
 
   article#main-col,
-  article#main-col .art{
+  article#main-col .art,
+  article#main-col .art_2{
   float:none;
   text-align: center;
   width:90%;
