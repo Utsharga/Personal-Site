@@ -19,7 +19,7 @@ body{
   width: 99%;
   font-size: 18px;
   border-radius: 10px;
-  transition: .6s;
+  transition: 1s;
   overflow: hidden;
   box-shadow: 0 10px 10px rgba(0,0,0,0.05);
 }
@@ -275,7 +275,7 @@ header a:hover{
     color:#fff;
     padding:0 8px;
     content:attr(data-text);
-    transition:0.7s;
+    transition:1s;
     border-radius: 10px;
 }
 
