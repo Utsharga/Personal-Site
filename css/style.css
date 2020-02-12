@@ -420,6 +420,16 @@ article#main-col .art_2{
   padding bottom: 30px;
 }
 
+article#main-col .art_3{
+  height: 200px;
+  width: auto;
+  margin-bottom: 20px;
+  margin-right: 5%;
+  margin-top: : -50px;
+  padding bottom: 30px;
+  padding-right: 5%;
+}
+
 footer{
   display: block;
   padding:20px;
@@ -551,6 +561,14 @@ footer .lift{
   float:none;
   text-align: center;
   width:90%;
+  }
+
+  article#main-col .art_3{
+  float:none;
+  text-align: center;
+  height: auto;
+  width:50%;
+  padding-right: 0;
   }
 
   article#main-col img{
